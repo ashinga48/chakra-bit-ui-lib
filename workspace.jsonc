@@ -27,7 +27,7 @@
     /**
      * default scope for all components in workspace.
      **/
-    "defaultScope": "company.scope"
+    "defaultScope": "resanec"
   },
   /**
    * main configuration for component dependency resolution.
@@ -38,13 +38,26 @@
      */
     "packageManager": "teambit.dependencies/pnpm",
     "policy": {
-      "dependencies": {},
+      "dependencies": {
+        "@chakra-ui/react": "1.6.5",
+        "@emotion/react": "^11",
+        "@emotion/styled": "^11",
+        "@types/jest": "26.0.24",
+        "framer-motion": "^4"
+      },
       "peerDependencies": {
         "@testing-library/react": "11.2.6",
         "react": "16.13.1",
         "react-dom": "16.13.1"
       }
-    }
+    },
+    "packageManagerArgs": [],
+    "devFilePatterns": [
+      "**/*.spec.ts"
+    ],
+    "strictPeerDependencies": true,
+    "installFromBitDevRegistry": true,
+    "savePrefix": ""
   },
   /**
    * workspace variants allow to set different subsets of configuration for components in your
