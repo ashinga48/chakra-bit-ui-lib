@@ -15,5 +15,17 @@
         "mainFile": "index.ts",
         "rootDir": "resanec/ui/button"
     },
+    "ui/card": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "resanec/ui/card"
+    },
+    "ui/themewrapper": {
+        "scope": "",
+        "version": "",
+        "mainFile": "index.ts",
+        "rootDir": "resanec/ui/themewrapper"
+    },
     "$schema-version": "14.9.0"
 }

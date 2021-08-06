@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 
 export type ButtonProps = {
   /**
@@ -7,9 +7,9 @@ export type ButtonProps = {
   text: string
 };
 
-export function Button({ text }: ButtonProps) {
+export function Button({ text, ...props }: ButtonProps) {
   return (
-    <div>
+    <div {...props}>
       {text}
     </div>
   );

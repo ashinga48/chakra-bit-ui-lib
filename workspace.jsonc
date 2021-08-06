@@ -40,8 +40,11 @@
     "policy": {
       "dependencies": {
         "@chakra-ui/react": "1.6.5",
+        "@chakra-ui/system": "1.7.1",
+        "@chakra-ui/theme": "1.9.2",
         "@emotion/react": "^11",
         "@emotion/styled": "^11",
+        "@testing-library/jest-dom": "5.14.1",
         "@types/jest": "26.0.24",
         "framer-motion": "^4"
       },
